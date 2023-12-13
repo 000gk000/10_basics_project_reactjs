@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Poppins:wght@300&display=swap');
+.body{
+  font-family: 'Charm', cursive;
+font-family: 'Poppins', sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-height: 100px;
+  margin: 10px;
+
+}
+.logo{
+  max-width: 75px;
+}
+ul{
+  display: flex;
+  gap: 24px;
+  margin-right: 50px;
+}
+ul li{
+  list-style: none;
+ 
+}

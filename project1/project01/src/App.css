@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Poppins:wght@300&display=swap');
+.body{
+  font-family: 'Charm', cursive;
+font-family: 'Poppins', sans-serif;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: auto;
+  height: 72px;
+  align-items: center;
+}
+
+ nav ul{
+  display: flex;
+  margin: auto;
+  list-style: none;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+nav button{
+
+  all: unset;
+  padding: 6px 16px;
+  background: var(--red);
+  background-color: rgb(241, 13, 13);
+  border-radius: 15px;
+  height: 32px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.hero{
+      display: flex;
+      margin: auto;
+      max-width: 1280px;
+      align-items: center;
+}
+
+.git {
+  all: unset;
+  padding: 6px 16px;
+  background: var(--red);
+  background-color: rgb(241, 13, 13);
+  border-radius: 15px;
+  height: 32px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.lin{
+  all: unset;
+  padding: 6px 16px;
+  background: var(--red);
+  background-color: rgb(241, 13, 13);
+  border-radius: 15px;
+  height: 32px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
