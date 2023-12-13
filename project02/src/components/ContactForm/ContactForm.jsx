@@ -5,6 +5,7 @@ const ContactForm = () => {
         <section className={styles.container}>
             <div className={styles.contact_form}>
                 <Button/>
+                <Button/>
             </div>
             <div className={styles.contact_image}>
 
