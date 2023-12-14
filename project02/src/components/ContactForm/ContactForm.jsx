@@ -5,6 +5,8 @@ import Button from "../Button/Button";
 import styles from "./ContactForm.module.css";
 const ContactForm = () => {
   return (
+    <>
+    
     <section className={styles.container}>
       <div className={styles.contact_form}>
         <div className={styles.top_btn}>
@@ -21,9 +23,32 @@ const ContactForm = () => {
           text=" VIA EMAIL"
           icon={<MdOutlineMarkEmailUnread fontSize="24px" />}
         />
+        <form>
+           
+           <div className={styles.form_control}>
+            <label htmlFor="Name"> Name </label>
+            <input type="text" name="Name"></input>
+            </div>
+            <div className={styles.form_control}>
+            <label htmlFor="email">Email</label>
+            <input type="text" name="email"></input>
+             </div>
+             <div className={styles.form_control}>
+            <label htmlFor="text">Text</label>
+            <textarea name="text"></textarea>
+           </div>
+
+          
+
+      </form>
       </div>
       <div className={styles.contact_image}></div>
+      
+     
     </section>
+   
+    </>
+   
   );
 };
 export default ContactForm;
