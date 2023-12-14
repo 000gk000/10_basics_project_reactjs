@@ -9,3 +9,18 @@ align-items: center;
 gap: 8px;
 justify-content: center;
 }
+
+.outline_btn{
+    padding: 18px 10px;
+    background-color: rgb(202, 197, 197);
+    border-radius: 7px;
+    border: 1px solid black;
+    color: rgb(7, 6, 6);
+    display: flex;
+    min-width: 220px;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    
+    justify-content: center;
+    }
