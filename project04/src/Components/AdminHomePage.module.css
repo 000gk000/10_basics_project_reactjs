@@ -1,0 +1,47 @@
+.mainbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 25vh;
+
+  padding: 2vw;
+  border-radius: 20px;
+}
+
+.username,
+.password {
+  input {
+    border-radius: 1px;
+    border-color: black;
+    border-radius: 5px;
+    height: 5vh;
+    width: 100%;
+  }
+}
+.username,
+.password {
+  label {
+    position: relative;
+    bottom: 1vw;
+  }
+}
+
+.password {
+  position: relative;
+  margin-top: 3vw;
+}
+
+.checkbox {
+  position: relative;
+  margin-top: 2vw;
+}
+.footer_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button {
+  padding-top: 2vw;
+}
+.footer_para {
+  text-align: center;
+}
