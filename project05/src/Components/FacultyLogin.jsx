@@ -21,7 +21,7 @@ const FacultyLogin = () => {
       <div className={styles.body_div}>
         <form>
           <div className={styles.form_header}>
-            <LuLogIn /> Faculty Login
+            <LuLogIn className={styles.loginbutton}/> Faculty Login
           </div>
           <div className={styles.form_body}>
             <label htmlFor="Username">Username</label>

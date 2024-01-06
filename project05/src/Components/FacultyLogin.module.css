@@ -22,7 +22,7 @@
 }
 
 .form_header {
-  background-color: #e4e4e4;
+  background-color: rgb(216, 214, 214);
   margin-bottom: 20px;
   padding: 5px;
   border-radius: 5px;
@@ -81,19 +81,22 @@
 .contact {
   margin-top: 40px;
 }
-.call{
-
- width: 20px;
- height: 15px; 
+.call {
+  width: 20px;
+  height: 15px;
 }
 @media only screen and (min-width: 601px) {
   .header_div {
-    font-size: large;
+    font-size: 30px;
+    height: 50px;
+    align-items: center;
   }
-  .body_div{
-    width: 40%;
-    margin-left:30%;
+  .body_div {
+    width: 30%;
+    margin-left: 30%;
     margin-right: 30%;
+    border: 2px solid rgb(121, 120, 120);
+    background-color: white;
   }
   .body2_div {
     display: flex;
@@ -101,34 +104,38 @@
     align-items: center;
     justify-content: space-between;
   }
+  .form_header {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 5px;
+  }
+  .loginbutton {
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 23px;
+  }
   .form_body input {
     width: 70%;
     height: 25px;
+    border: 2px solid rgb(216, 214, 214);
   }
+
   .first2divofbody2_div {
-    justify-content: space-between;
+    padding: 10px;
+
+    width: 50%;
   }
 
   .last2divofbody2_div {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
+    width: 50%;
   }
   .contact {
-    padding-left: 10vw;
-  }
-  .location_div {
-    margin-top: 0px;
+    margin-right: 50px;
+    margin-top: 10px;
   }
 }
 
-@media (min-width: 321px) and (max-width: 600px) {
- 
-  .body_div{
-    
-    width: 70%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
- 
-}
+
