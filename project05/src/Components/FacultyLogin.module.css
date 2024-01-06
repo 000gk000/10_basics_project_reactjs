@@ -35,7 +35,7 @@
 
 .form_body input {
   width: 80%;
-  height: 7vw;
+  height: 25px;
 
   padding: 2px;
   border-radius: 5px;
@@ -81,16 +81,29 @@
 .contact {
   margin-top: 40px;
 }
+.call{
 
+ width: 20px;
+ height: 15px; 
+}
 @media only screen and (min-width: 601px) {
   .header_div {
     font-size: large;
+  }
+  .body_div{
+    width: 40%;
+    margin-left:30%;
+    margin-right: 30%;
   }
   .body2_div {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+  .form_body input {
+    width: 70%;
+    height: 25px;
   }
   .first2divofbody2_div {
     justify-content: space-between;
@@ -107,4 +120,15 @@
   .location_div {
     margin-top: 0px;
   }
+}
+
+@media (min-width: 321px) and (max-width: 600px) {
+ 
+  .body_div{
+    
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+ 
 }

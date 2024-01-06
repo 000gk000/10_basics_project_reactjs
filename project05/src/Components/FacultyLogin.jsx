@@ -85,9 +85,13 @@ const FacultyLogin = () => {
             <p>
               <FaPhoneAlt className={styles.call} />
               Call us on:<br></br>06272-255255<br></br>
+              </p>
+              <p>
               <IoMdMail />
               Mail us on: <br></br>dcedbg@rediffmail.com
-            </p>
+              </p>
+              
+            
           </div>
         </div>
       </div>
