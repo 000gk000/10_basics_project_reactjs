@@ -1,0 +1,44 @@
+.Homeicon{
+ height: 12px;
+}
+.tablediv{
+    
+    width: 80%;
+    border: 2px solid gray;
+    margin-top: 50px;
+    
+}
+.tablediv h3{
+    margin-top: 0px;
+    background-color: #daddda;
+   padding: 10px;
+    
+}
+.tablediv p {
+       margin-left: 20px;
+     
+}
+.arrowicon{
+    height: 12px;
+}
+
+.bodydiv{
+    margin-top: 60px;
+}
+.images{
+    height: 100%;
+    width: 100%;
+}
+.bodydiv2{
+    width: 100vw;
+}
+
+@media screen and  (min-width : 426px) {
+    .images{
+        width: 30%;
+        height: 30%;
+    }
+    .bodydiv2{
+       
+    }
+}
